@@ -1,0 +1,141 @@
+* {
+	* box-sizing: border-box;
+}
+
+:root {
+	--trans-blue: #4fa5c2;
+	--trans-pink: #f587ac;
+	--trans-white: #f9fbfc;
+	--lesbian-darkorange: #d82c01;
+	--lesbian-paleorange: #f1752c;
+	--lesbian-liteorange: #ff985b;
+	--lesbian-center: #ffffff;
+	--lesbian-litemagenta: #d162a3;
+	--lesbian-palemagenta: #b75591;
+	--lesbian-darkmagenta: #a60260;
+}
+
+.trans {
+	background-image: linear-gradient(
+	var(--trans-blue) 0%,
+	var(--trans-blue) 20%,
+	var(--trans-pink) 20%,
+	var(--trans-pink) 40%,
+	var(--trans-white) 40%,
+	var(--trans-white) 60%,
+	var(--trans-pink) 60%,
+	var(--trans-pink) 80%,
+	var(--trans-blue) 80%,
+	var(--trans-blue) 100%
+	);
+}
+
+.lesbian {
+	background-image: linear-gradient(
+	var(--lesbian-darkorange) 0%,
+	var(--lesbian-darkorange) 14.28%,
+	var(--lesbian-paleorange) 14.28%,
+	var(--lesbian-paleorange) 28.58%,
+	var(--lesbian-liteorange) 28.58%,
+	var(--lesbian-liteorange) 42.87%,
+	var(--lesbian-center) 42.87%,
+	var(--lesbian-center) 57.16%,
+	var(--lesbian-litemagenta) 57.16%,
+	var(--lesbian-litemagenta) 71.45%,
+	var(--lesbian-palemagenta) 71.45%,
+	var(--lesbian-palemagenta) 85.74%,
+	var(--lesbian-darkmagenta) 85.74%,
+	var(--lesbian-darkmagenta) 100%
+	);
+}
+
+
+html {
+	font-size: 100%;
+	line-height: 1.5;
+	background: #eee;
+}
+
+body {
+	max-width: 768px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+div.stripey-boi {
+	position: fixed;
+	display: block;
+	top: 0;
+	height: 2em;
+	width: 30%;
+}
+
+div.boi-l {
+	transform: rotate(315deg);
+	left: -6em;
+}
+
+div.boi-r {
+	transform: rotate(45deg);
+	right: -6em;
+}
+
+header h1, header h2 {
+	text-align: center;
+}
+
+code {
+	background: #ddd;
+	border-radius: .5em;
+	padding: .25em .5em
+}
+
+footer {
+	text-align: center;
+	font-size: 80%
+}
+
+a, a:link {
+	text-decoration: none;
+	color: #27288c;
+	font-weight: 600;
+}
+
+a:hover {
+	border-bottom: 2px solid #27288c;
+}
+
+article.image {
+	border: 2px solid #b4b5ea;
+	background: #b4b5ea;
+}
+
+article.image h3 {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+article.image img {
+	max-width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background: #111;
+		color: #fff;
+	}
+	code {
+		background: #333;
+	}
+	a, a:link {
+		color: #b4b5ea;
+	}
+	a:hover {
+		border-bottom: 2px solid #b4b5ea;
+	}
+	article.image {
+		border: 2px solid #27288c;
+		background: #27288c;
+	}
+}
