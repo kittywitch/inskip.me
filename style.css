@@ -68,6 +68,7 @@ div.stripey-boi {
 	top: 0;
 	height: 2em;
 	width: 30%;
+	z-index: -999;
 }
 
 div.boi-l {
@@ -118,6 +119,14 @@ article.image h3 {
 
 article.image img {
 	max-width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+	body {
+		width: 100% !important;
+		padding: 1em;
+		margin: 0em;
+	}
 }
 
 @media (prefers-color-scheme: dark) {
