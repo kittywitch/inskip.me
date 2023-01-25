@@ -1,0 +1,5 @@
+<meta charset="utf-8">
+<title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+{{ $sass := resources.Get "scss/main.scss" }}
+{{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+<link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">

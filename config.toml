@@ -1,0 +1,8 @@
+baseURL = 'https://inskip.me/'
+languageCode = 'en-ca'
+title = 'Kat Inskip'
+enableGitInfo = true
+enableRobotsTXT = true
+timeZone = "America/Vancouver"
+enableEmoji = true
+theme = "inskip"
