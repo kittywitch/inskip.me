@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kittywitch
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://inskip.me
+  * I am kittywitch (https://keybase.io/kittywitch) on keybase.
+  * I have a public key ASA6dkFhnRhj3NQGnZGTK8_UbPyZUO8gho40B-TbIhj5jwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101847f8baded5e8367c758967a507249f2f306a074f6fc10382dc653bc08b882540a",
+      "host": "keybase.io",
+      "kid": "01203a7641619d1863dcd4069d91932bcfd46cfc9950ef20868e3407e4db2218f98f0a",
+      "uid": "c229912f4b4f33bf3507381c64e6a019",
+      "username": "kittywitch"
+    },
+    "merkle_root": {
+      "ctime": 1685641946,
+      "hash": "f9c13516b5efc8dd9d9c2489ae49b4f9d4468b770305c48bbfde5ae74f51d5c2c12233b466bfe028f178fa916b1dfcc11082027b272b220b9bc1ede4d0ba5a20",
+      "hash_meta": "58aee38a22554ea7db1270cdfea57ab55d52792d13e681f1425603974b7fa7a4",
+      "seqno": 24520632
+    },
+    "service": {
+      "entropy": "OnF6w1dhlQEEsR3DuVgKwso+",
+      "hostname": "inskip.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.4"
+  },
+  "ctime": 1685641995,
+  "expire_in": 504576000,
+  "prev": "85f47edfc95abe9d87f5b2cfab1d4f36774b176aab0969af99442d96596cae43",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgOnZBYZ0YY9zUBp2RkyvP1Gz8mVDvIIaONAfk2yIY+Y8Kp3BheWxvYWTESpcCB8QghfR+38lavp2H9bLPqx1PNndLF2qrCWmvmUQtlllsrkPEIMbwHczuMPHWgq3yZyeARc2W0ZS9Ec7YIsn2ixAEWfckAgHCo3NpZ8RAn6H9bcKsc0Z/MuLHMhGDgEvaJmwwj3Zp2urFk5i6T5XjUZTSQwiEAtE1/NzG8slv83vgSAHgK5ipAeSVQmtJDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHyE+q1tdJtK5CN8Zlbt9ZypD6pWHLliI6a3Ji3igCtQo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kittywitch
+
+==================================================================
