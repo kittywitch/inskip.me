@@ -11,7 +11,17 @@ A DevOps Engineer with a broad range of experience from system administration to
 
 ## Experience
 
-### Glamorous AI - April 2022 onwards
+### X-Chem, Inc. London - June 2023 to August 2024
+
+DevOps Engineer
+
+To be updated.
+
+### Glamorous AI - April 2022 to June 2023
+
+Junior DevOps Engineer
+
+To be updated.
 
 ### Neopay Ltd - June 2019 to August 2019
 
